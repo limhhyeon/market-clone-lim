@@ -19,10 +19,9 @@ body {
   justify-content: center;
   align-items: center;
   background-color: tomato;
-  opacity: 1;
 }
 @media screen and (max-width: 400px) {
   .media-text {
-    opacity: 0;
+    display: none;
   }
 }
